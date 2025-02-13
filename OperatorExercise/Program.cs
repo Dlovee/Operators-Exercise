@@ -33,6 +33,10 @@
             int k = ++i * j++;
 
             Console.WriteLine(k); // What will this output?
+            
+            Console.WriteLine("What is the area of the circle?");
+            double radius = double.Parse(Console.ReadLine());
+            Console.WriteLine($"The area of the circle with a radius of {radius} is {Math.Round(AreaOfCircle(radius), 3)}");
         }
     }
 }
