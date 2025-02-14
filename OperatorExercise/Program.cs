@@ -7,13 +7,6 @@
             return Math.PI * Math.Pow(radius, 2);
         }
 
-        public static void PrintAreaOfCircle()
-        {
-            Console.WriteLine("What is the area of the circle?");
-            double radius = double.Parse(Console.ReadLine());
-            Console.WriteLine($"The area of the circle with a radius of {radius} is {Math.Round(AreaOfCircle(radius), 3)}");
-        }
-
         static void Main(string[] args)
         {
             int a = 17;
